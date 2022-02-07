@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.nav {
+    background-color: #9FC5F8;
+    color: white;
+    display: flex;
+    text-decoration: none;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 30%;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+#city {
+    display: flex;
+    justify-items: flex-end;
+}
+.main {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.city-temp {
+    display: flex;
+    border-bottom: 3px solid black;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+}
+.city-temp select {
+    padding: 5px;
+    width: 60px;
+}
+.city-temp h1 {
+    /* text-align: end; */
+}
+.col {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.days {
+    background-color: #EEEFEF;
+    padding: 20px;
+}
+
+#weather-pics {
+    height: 130px;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p {
+    font-weight: bold;
+}
+.temperatures {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.high, .low {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.high::after, .low::after {
+    content: "°";
+}
+.high {
+    color: red;
+}
+.low {
+    color: blue;
+}
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+.cookie-policy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 160px;
+    width: 1000px;
+    padding: 20px;
+    border: 2px solid gray;
+    margin: 0 auto;
+    
+}
+.btn {
+    padding: 10px 20px;
+    border: 2px solid black;
+    box-shadow: 3px 4px black;
+    background-color: #F3CB4E;
+    cursor: pointer;
+}
